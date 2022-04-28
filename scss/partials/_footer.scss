@@ -1,0 +1,30 @@
+footer{
+    display: flex;
+    background-color: grey;
+    flex-direction: column;
+    align-items: center;
+    .logo{
+        padding: 2%;
+        a{
+            text-decoration: none;
+            color: beige;
+        }
+    }
+    .horarios{
+        padding-bottom: 1%;
+        h3{
+            font-family: $fontTexto;
+            padding-bottom: 1%;
+            color: beige;
+        }
+        ul{
+            li{
+                list-style: none;
+                color: beige;
+            }
+        }
+    }
+    .copyright{
+        font-size: 12px;
+    }
+}

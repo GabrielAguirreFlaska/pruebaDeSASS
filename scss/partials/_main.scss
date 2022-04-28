@@ -1,0 +1,15 @@
+$fontTexto: verdana, Geneva, Tahoma, sans-serif;
+
+h1{
+    text-align: center;
+    color: $colorParaTitulos;
+    font-family: $fontTexto;
+    margin: 15%;
+}
+
+.textMain{
+    text-align: center;
+    margin: 5%;
+    padding: 5%;
+    font-family: $fontTexto;
+}
